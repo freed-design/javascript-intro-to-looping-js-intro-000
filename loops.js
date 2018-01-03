@@ -3,7 +3,7 @@ var forLoop = (array) => {
     if (i===0) {
       return array.push('I am 1 strange loop.')
     } else {
-      return array.push('I am ${i} strange loops.')
+      return array.push(`I am ${i} strange loops.`)
     }
   }
 }
